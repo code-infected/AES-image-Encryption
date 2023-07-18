@@ -19,4 +19,4 @@ Image Encryption using AES is a project that demonstrates how to encrypt and dec
 1. Clone the repository:
 
 ```shell
-git clone https://github.com/your-username/image-encryption-aes.git
+git clone git@github.com:code-infected/AES-image-Encryption.git
