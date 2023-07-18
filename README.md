@@ -20,12 +20,12 @@ Image Encryption using AES is a project that demonstrates how to encrypt and dec
 
 ```shell
 git clone git@github.com:code-infected/AES-image-Encryption.git
+```
 
-```markdown
-Change into the project directory:
+2. Change into the project directory:
 
 ```shell
-cd image-encryption-aes
+cd AES-image-Encryption
 ```
 
 Install the required dependencies:
