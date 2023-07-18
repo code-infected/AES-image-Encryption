@@ -55,5 +55,5 @@ The encrypted image will be saved as `<original_image_name>_encrypted.jpg`, and 
 Contributing
 
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please create an issue or submit a pull request.
-```
+
 
