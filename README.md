@@ -41,7 +41,7 @@ pip install -r requirements.txt
 3. Run the script with the image file path as a command-line argument:
 
 ```shell
-python main.py path/to/image.jpg
+python Aes_encrypt.py path/to/image.jpg
 ```
 
 Replace `path/to/image.jpg` with the actual path to the image file you want to encrypt or decrypt.
