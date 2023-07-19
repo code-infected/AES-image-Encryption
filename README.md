@@ -1,4 +1,4 @@
-# Image Encryption using AES
+## AES-image-Encryption
 
 This is a Python script that demonstrates image encryption and decryption using the AES (Advanced Encryption Standard) algorithm.
 
@@ -17,13 +17,28 @@ This is a Python script that demonstrates image encryption and decryption using 
 
 ## Usage
 
-1. Install the required dependencies:
+1. Clone the repository:
 
 ```shell
-pip install cryptography
+git clone https://github.com/code-infected/AES-image-Encryption.git
 ```
 
-2. Run the script with the image file path as a command-line argument:
+2. Change into the project directory:
+
+```shell
+
+cd AES-image-Encryption
+```
+
+2. Install the required dependencies:
+
+```shell
+
+pip install -r requirements.txt
+
+```
+
+3. Run the script with the image file path as a command-line argument:
 
 ```shell
 python main.py path/to/image.jpg
@@ -31,7 +46,7 @@ python main.py path/to/image.jpg
 
 Replace `path/to/image.jpg` with the actual path to the image file you want to encrypt or decrypt.
 
-3. Choose the desired operation:
+4. Choose the desired operation:
    - Enter `1` to encrypt the image.
    - Enter `2` to decrypt the image.
 
