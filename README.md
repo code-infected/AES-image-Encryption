@@ -13,6 +13,7 @@ This is a Python script that demonstrates image encryption and decryption using 
 
 - Python 3.6+
 - `cryptography` library
+- `argparse` library
 
 ## Usage
 
