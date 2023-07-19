@@ -33,6 +33,18 @@ def decrypt_image(encrypted_image_path, key):
 
 
 def main():
+    # ASCII banner
+    banner = '''
+      ___  __      ___       __   __       __  ___  ___  __  
+ /\  |__  /__`    |__  |\ | /  ` |__) \ / |__)  |  |__  |__) 
+/~~\ |___ .__/    |___ | \| \__, |  \  |  |     |  |___ |  \ 
+
+Coded by @Code-Infected
+
+
+    '''
+    print(banner)
+
     parser = argparse.ArgumentParser(description='Image Encryption using AES')
     parser.add_argument('image_path', type=str, help='Path to the image file')
     args = parser.parse_args()
@@ -52,4 +64,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
